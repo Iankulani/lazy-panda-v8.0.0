@@ -225,37 +225,37 @@ Easy to deploy
 
 Its architecture ensures that it can run on standard machines without heavy infrastructure requirements.
 
-This makes it suitable for:
+## This makes it suitable for
 
-Personal laptops
+* Personal laptops
 
-Training lab systems
+* Training lab systems
 
-Enterprise workstations
+* Enterprise workstations
 
-Controlled environments
+* Controlled environments
 
-Structured Command Flow
+* Structured Command Flow
 
-The workflow of lazy-panda-v8.0.0 follows a clean structure:
+## The workflow of lazy-panda-v8.0.0 follows a clean structure.
 
-User sends command via messaging platform
+* User sends command via messaging platform
 
-AI interprets the command
+* AI interprets the command
 
-System validates the input
+* System validates the input
 
-IP analysis is executed
+* IP analysis is executed
 
-Results are processed
+* Results are processed
 
-Structured report is generated
+* Structured report is generated
 
-Output is returned in chat
+* Output is returned in chat
 
-This seamless pipeline ensures clarity and speed.
+* This seamless pipeline ensures clarity and speed.
 
-Secure Communication Integration
+* Secure Communication Integration
 
 By supporting Telegram, Discord, Slack, iMessage, and Google Chat, lazy-panda-v8.0.0 integrates into professional environments without disrupting workflow.
 
@@ -273,57 +273,57 @@ The messaging integration transforms communication tools into operational cybers
 
 Automation & Productivity
 
-lazy-panda-v8.0.0 reduces repetitive manual tasks such as:
+## lazy-panda-v8.0.0 reduces repetitive manual tasks such as
 
-Running multiple commands
+* Running multiple commands
 
-Copying raw outputs
+* Copying raw outputs
 
-Formatting reports
+* Formatting reports
 
-Rewriting technical findings
+* Rewriting technical findings
 
-Instead, the AI assistant automates:
+## Instead, the AI assistant automates:
 
-Execution
+* Execution
 
-Interpretation
+* Interpretation
 
-Formatting
+* Formatting
 
-Summarization
+* Summarization
 
-This boosts productivity and allows professionals to focus on decision-making rather than manual compilation.
+* This boosts productivity and allows professionals to focus on decision-making rather than manual compilation.
 
 Customization & Expandability
 
-Because the tool runs locally, users can:
+## Because the tool runs locally, users can:
 
-Modify configurations
+* Modify configurations
 
-Customize command structures
+* Customize command structures
 
-Extend analysis modules
+* Extend analysis modules
 
-Integrate with internal systems
+* Integrate with internal systems
 
-This makes lazy-panda-v8.0.0 scalable for different environments.
+* This makes lazy-panda-v8.0.0 scalable for different environments.
 
-Ethical & Educational Use
+* Ethical & Educational Use
 
-lazy-panda-v8.0.0 is designed strictly for:
+## lazy-panda-v8.0.0 is designed strictly for
 
-Educational purposes
+* Educational purposes
 
-Internal network analysis
+* Internal network analysis
 
-Authorized cybersecurity drills
+* Authorized cybersecurity drills
 
-Research environments
+* Research environments
 
-It is intended for ethical and authorized usage only.
+* It is intended for ethical and authorized usage only.
 
-Users must ensure proper authorization before analyzing any IP address or network infrastructure.
+* Users must ensure proper authorization before analyzing any IP address or network infrastructure.
 
 ## Summary
 
