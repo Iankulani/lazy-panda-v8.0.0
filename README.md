@@ -71,21 +71,21 @@ Once triggered, the system performs
 
 The automation eliminates repetitive manual processes and reduces time spent on basic diagnostics.
 
-Local Deployment Capability
+* Local Deployment Capability
 
-Security and control are essential in cybersecurity operations. lazy-panda-v8.0.0 is designed to run locally on your machine, ensuring:
+* Security and control are essential in cybersecurity operations. lazy-panda-v8.0.0 is designed to run locally on your machine, ensuring:
 
-Full control over execution
+* Full control over execution
 
-Reduced data exposure
+* Reduced data exposure
 
-Enhanced privacy
+* Enhanced privacy
 
-Offline operational capability
+* Offline operational capability
 
-Custom configuration flexibility
+* Custom configuration flexibility
 
-Local deployment allows organizations to integrate the tool into internal infrastructure without depending on external servers. This makes it suitable for government environments, enterprise networks, academic labs, and training centers.
+ Local deployment allows organizations to integrate the tool into internal infrastructure without depending on external servers. This makes it suitable for government environments, enterprise networks, academic labs, and training centers.
 
 Users can host and configure the assistant according to their operational requirements.
 
