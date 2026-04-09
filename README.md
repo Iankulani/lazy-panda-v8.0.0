@@ -351,7 +351,7 @@ lazy-panda-v8.0.0 is not just a chatbot — it is an AI-driven operational assis
 ## How to clone the repo
 ```bash
 git clone https://github.com/Iankulani/lazy-panda-v8.0.0.git
-cd lazy-panda-v8.0.0
+cd lazy_panda
 ```
 
 ## How to run
