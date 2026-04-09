@@ -1,0 +1,45 @@
+# Dockerfile for Lazy Panda v8.0.0
+FROM python:3.9-slim
+
+LABEL maintainer="Ian Carter Kulani"
+LABEL description="Lazy Panda - Advanced IP Analysis Tool with Statistical Graphics"
+LABEL version="8.0.0"
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    TZ=UTC
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    g++ \
+    libfreetype6-dev \
+    libpng-dev \
+    pkg-config \
+    iputils-ping \
+    traceroute \
+    net-tools \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements first for better caching
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application files
+COPY . .
+
+# Create necessary directories
+RUN mkdir -p .lazy_panda lazy_panda_reports lazy_panda_temp
+# Expose port for potential web interface
+EXPOSE 8080
+
+# Set entry point
+ENTRYPOINT ["python", "lazy_panda.py"]
+
+# Default command
+CMD ["--help"]

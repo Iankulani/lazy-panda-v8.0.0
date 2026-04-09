@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  lazy_panda:
+    build: .
+    container_name: lazy_panda
+    restart: unless-stopped
+    environment:
+      - TZ=UTC
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - lazy_panda_data:/app/.lazy_panda
+      - lazy_panda_reports:/app/lazy_panda_reports
+      - lazy_panda_temp:/app/lazy_panda_temp
+    ports:
+      - "8080:8080"
+    stdin_open: true
+    tty: true
+    command: ["--interactive"]
+
+  lazy_panda_discord:
+    build: .
+    container_name: lazy_panda_discord
+    restart: unless-stopped
+    environment:
+      - TZ=UTC
+      - PYTHONUNBUFFERED=1
+      - DISCORD_ENABLED=true
+    volumes:
+      - lazy_panda_data_discord:/app/.lazy_panda
+      - lazy_panda_reports_discord:/app/lazy_panda_reports
+    depends_on:
+      - lazy_panda
+    command: ["--discord-only"]
+
+volumes:
+  lazy_panda_data:
+  lazy_panda_reports:
+  lazy_panda_temp:
+  lazy_panda_data_discord:
+  lazy_panda_reports_discord:

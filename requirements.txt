@@ -1,0 +1,19 @@
+# Core dependencies for Lazy Panda v8.0.0
+
+# Data visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+numpy>=1.21.0
+
+# PDF generation
+reportlab>=3.6.0
+
+# HTTP requests
+requests>=2.26.0
+
+# Discord bot (optional)
+discord.py>=2.0.0
+
+# Additional utilities
+Pillow>=9.0.0
+colorama>=0.4.4
