@@ -354,8 +354,70 @@ git clone https://github.com/Iankulani/lazy-panda-v8.0.0.git
 cd lazy_panda
 ```
 
+
+
 ## How to run
 ```bash
 python lazy-panda-v8.0.0.py
+
+```
+Make the installation scripts executable (for Linux/Mac):
+
+```bash
+chmod +x install.sh
+chmod +x lazy_panda_launcher.sh
 ```
 
+# Quick start guide (README.md snippet):
+markdown
+# Lazy Panda v8.0.0 - Quick Start
+
+# Installation
+
+# Linux/Mac
+```bash
+./install.sh
+./lazy_panda_launcher.sh
+Windows
+powershell
+.\install.ps1
+.\lazy_panda_launcher.bat
+Docker
+bash
+docker build -t lazy-panda .
+docker run -it --rm lazy-panda
+Docker Compose
+bash
+docker-compose up -d
+GitLab CI/CD
+The .gitlab-ci.yml provides:
+
+Code linting and formatting checks
+
+Dependency vulnerability scanning
+
+Docker image building
+
+Staging and production deployment
+
+SAST security scanning
+
+Container vulnerability scanning
+
+Environment Variables for GitLab CI
+Set these in GitLab CI/CD settings:
+
+SSH_PRIVATE_KEY - SSH key for staging server
+
+SSH_PRIVATE_KEY_PROD - SSH key for production server
+
+STAGING_HOST - Staging server hostname
+
+PRODUCTION_HOST - Production server hostname
+
+STAGING_USER - Staging server username
+
+PRODUCTION_USER - Production server username
+
+
+# All files are ready to use with proper permissions and configurations!
