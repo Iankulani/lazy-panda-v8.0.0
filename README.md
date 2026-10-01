@@ -378,15 +378,21 @@ markdown
 ```bash
 ./install.sh
 ./lazy_panda_launcher.sh
-Windows
+```
+# Windows
+
 powershell
+```bash
 .\install.ps1
 .\lazy_panda_launcher.bat
+```
+
 Docker
-bash
+```bash
 docker build -t lazy-panda .
 docker run -it --rm lazy-panda
 Docker Compose
+```
 bash
 docker-compose up -d
 GitLab CI/CD
@@ -420,4 +426,11 @@ STAGING_USER - Staging server username
 PRODUCTION_USER - Production server username
 
 
+
+# Star History
+
+
 # All files are ready to use with proper permissions and configurations!
+
+
+ 
