@@ -1,8 +1,8 @@
 # lazy-panda-v8.0.0
 
+<div align="center">
+
 <img width="360" height="360" alt="d49f53e5-dd3d-4411-97b4-294396a6c584" src="https://github.com/user-attachments/assets/17b62e46-3913-443b-96e3-cb384a58840d" />
-
-
 
 
 [![GitHub stars](https://img.shields.io/github/stars/Iankulani/lazy-panda-v8.0.0?style=for-the-badge&logo=github)](https://github.com/Iankulani/lazy-panda-v8.0.0/stargazers)
@@ -13,6 +13,8 @@
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Iankulani/lazy-panda-v8.0.0)
 [![Python](https://img.shields.io/badge/python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
+<div align="center">
 
 
 lazy-panda-v8.0.0 is a next-generation AI assistant bot designed to empower cybersecurity professionals, network engineers, students, teachers, and researchers with intelligent command execution and automated IP analysis capabilities. Built as a lightweight yet powerful tool, lazy-panda-v8.0.0 enables users to fire structured commands directly from popular communication platforms while maintaining the ability to run locally on their own machine for enhanced security and control.
