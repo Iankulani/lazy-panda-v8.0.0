@@ -1,5 +1,10 @@
 # lazy-panda-v8.0.0
 
+<img width="360" height="360" alt="d49f53e5-dd3d-4411-97b4-294396a6c584" src="https://github.com/user-attachments/assets/17b62e46-3913-443b-96e3-cb384a58840d" />
+
+
+
+
 [![GitHub stars](https://img.shields.io/github/stars/Iankulani/lazy-panda-v8.0.0?style=for-the-badge&logo=github)](https://github.com/Iankulani/lazy-panda-v8.0.0/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Iankulani/lazy-panda-v8.0.0?style=for-the-badge&logo=github)](https://github.com/Iankulani/lazy-panda-v8.0.0/network)
 [![GitHub watchers](https://img.shields.io/github/watchers/Iankulani/lazy-panda-v8.0.0?style=for-the-badge&logo=github)](https://github.com/Iankulani/lazy-panda-v8.0.0/watchers)
