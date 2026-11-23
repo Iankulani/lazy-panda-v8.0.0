@@ -447,8 +447,7 @@ PRODUCTION_USER - Production server username
 
 # Star History
 
-
-# All files are ready to use with proper permissions and configurations!
+![Star History](https://shieldcn.dev/chart/github/stars/Iankulani/lazy-panda-v8.0.0.svg?theme=violet)
 
 
  
